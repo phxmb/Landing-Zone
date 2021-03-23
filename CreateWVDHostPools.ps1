@@ -1,3 +1,6 @@
+###https://www.nielskok.tech/powershellautomation/powershell-function-for-creating-wvd-hostpools/###
+###CreateWVDHostPools -ResourceGroupName WVD2 -HostPools WVD-Dev, WVD-Test, WVD-Prod###
+
 Function CreateWVDHostPools {
     Param (
         [Parameter(Mandatory = $True, Position = 1, ValueFromPipeline = $False)]
